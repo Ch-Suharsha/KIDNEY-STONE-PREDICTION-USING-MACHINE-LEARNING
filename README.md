@@ -59,13 +59,23 @@ This plan outlines the data collection, preprocessing steps, training/testing pr
 
 **Road Map**
 Input: Chronic Kidney Disease Dataset
+
 Output: High Accuracy prediction Framework
-Step 1: Input data Step2: Pre-process the data
+
+Step 1: Input data Step2: Pre-process the data 
+
 Step 2.1: Convert Categorical values to numerical values
+
 Step 2.2: Replace numerical missing values by Mean
+
 Step2.3 Replace Categorical missing values by Mode
+
 Step3: Construct Classifier Models
+
 Step3.1: Construct Decision Tree Model Step3.2: Construct Random Forest Model
+
 Step 3.3: Construct SVM model
+
 Step 4: Check the accuracy of the constructed models using confusion matrix 
+
 Step 5: Decide the best prediction model for CKD
