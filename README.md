@@ -32,3 +32,40 @@ Data mining methods and machine learning play a major role in this aspect of bio
       - Calculated using true positive, true negative, false positive, and false negative.
 
 This plan outlines the data collection, preprocessing steps, training/testing procedures, and parameters used for evaluating the proposed model's results in terms of precision, recall, F-measure, and accuracy.
+
+**ALGORITHM USED**
+- **Decision Tree:**
+  - Solves regression and classification problems.
+  - Creates a model with decision rules derived from training data.
+  - Tree structure with roots, branches, and leaves.
+  - Easy to understand, user-friendly rules.
+  - Effective association representation among dataset attributes.
+  - Requires less computation compared to other algorithms.
+
+- **Random Forest:**
+  - Ensemble of decision trees for classification and regression.
+  - Constructs multiple trees using random subsets of training data.
+  - Higher accuracy due to a collection of decision trees.
+  - Fast runtime, accommodates missing data.
+  - Handles unbalanced data, robust against overfitting.
+
+- **Support Vector Machine (SVM):**
+  - Supervised learning model for classification and multivariate analysis.
+  - Builds a model to assign examples to categories.
+  - Non-probabilistic binary linear classifier.
+  - Maps training examples to maximize the gap between categories.
+  - Useful in detecting Chronic Kidney Disease (CKD).
+  - Utilizes support-vector clustering for unlabeled data.
+
+**Road Map**
+Input: Chronic Kidney Disease Dataset
+Output: High Accuracy prediction Framework
+Step 1: Input data Step2: Pre-process the data
+Step 2.1: Convert Categorical values to numerical values
+Step 2.2: Replace numerical missing values by Mean
+Step2.3 Replace Categorical missing values by Mode
+Step3: Construct Classifier Models
+Step3.1: Construct Decision Tree Model Step3.2: Construct Random Forest Model
+Step 3.3: Construct SVM model
+Step 4: Check the accuracy of the constructed models using confusion matrix 
+Step 5: Decide the best prediction model for CKD
